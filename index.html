@@ -52,6 +52,23 @@
             padding-bottom: 10px;
             margin-top: 40px;
         }
+        .method-box {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        .method-step {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+        .method-step span {
+            color: var(--accent);
+            font-weight: bold;
+            margin-right: 10px;
+        }
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -77,12 +94,13 @@
         }
         .cta {
             display: inline-block;
-            background: var(--text);
+            background: var(--accent);
             color: #fff;
             padding: 12px 25px;
             text-decoration: none;
             margin-top: 20px;
             font-weight: bold;
+            border-radius: 4px;
         }
     </style>
 </head>
@@ -98,33 +116,49 @@
     
     <div class="highlight-box">
         <span class="gap-alert">[DER FALL: "The 1-Second Gap"]</span>
-        <p>Ein Zeitunterschied von nur einer Sekunde zwischen Server und Nutzer führt zum Totalausfall des Zugangs. Keine menschliche Unterstützung, nur ein endloser algorithmischer Loop. Wenn der Zugang zur Innovation blockiert ist, wird Sicherheit zur Barriere.</p>
+        <p>Ein Zeitunterschied von nur einer Sekunde zwischen Server und Nutzer führt zum Totalausfall des Zugangs. Das Problem ist der <strong>Authentifikator-App-Fehler</strong>: ein starres System, das Identität mit Zeit verwechselt.</p>
     </div>
 </section>
 
 <section>
-    <h2>Das SAP-Protokoll (Sovereign Authentication Protocol)</h2>
-    <p>IARTIUM stellt eine Architektur vor, die den Menschen wieder in das Zentrum der Macht stellt. Wir ersetzen die starre Zeit-Synchronisation durch **Souveräne Identität**.</p>
+    <h2>Die IARTIUM 3-Stufen-Design-Methode</h2>
+    <p>Inspiriert von Hochsicherheitssystemen in New York, der Schweiz und Brasilien, ersetzt IARTIUM die zeitbasierte Abhängigkeit durch logische Triangulation:</p>
     
+    <div class="method-box">
+        <div class="method-step">
+            <span>ETAPPE 1:</span> Die Plattform initiiert die Herausforderung (Native Challenge).
+        </div>
+        <div class="method-step">
+            <span>ETAPPE 2:</span> Ein externer souveräner Kanal (Logic Hub) dekodiert Passwort 1, um Passwort 2 zu generieren.
+        </div>
+        <div class="method-step">
+            <span>ETAPPE 3:</span> Die finale Freischaltung erfolgt durch logische Übereinstimmung, nicht durch Uhren-Synchronisation.
+        </div>
+    </div>
+    <p><em>Diese Methode eliminiert den "Single Point of Failure" herkömmlicher Authentifikatoren.</em></p>
+</section>
+
+<section>
+    <h2>Vorteile der SAP-Architektur</h2>
     <div class="grid">
         <div class="card">
-            <h3>Native Effizienz</h3>
-            <p>Implementiert im 5,1 MB Kern. Keine Abhängigkeit von externen Zeit-Servern oder aufgeblähter Cloud-Bürokratie.</p>
+            <h3>Logik statt Zeit</h3>
+            <p>Kein Aussperren mehr durch Netzwerk-Latenz oder NTP-Fehler. Das System erkennt die Identität, nicht die Millisekunde.</p>
         </div>
         <div class="card">
-            <h3>Organische Toleranz</h3>
-            <p>Ein bio-inspiriertes System, das Netzwerklatenz und menschliche Faktoren versteht, ohne die Sicherheit zu kompromittieren.</p>
+            <h3>5,1 MB Kern</h3>
+            <p>Extreme Effizienz ermöglicht diese Triangulation nativ auf einfachsten Geräten, ohne Cloud-Bürokratie.</p>
         </div>
         <div class="card">
-            <h3>Totale Souveränität</h3>
-            <p>Der Schlüssel gehört dem Nutzer, nicht dem "Gatekeeper". Keine Recovery-E-Mails notwendig, da die Macht lokal residiert.</p>
+            <h3>Souveräne Freiheit</h3>
+            <p>Der Nutzer besitzt den Dekodierungsprozess. Keine Abhängigkeit von Google- oder Microsoft-Servern.</p>
         </div>
     </div>
 </section>
 
 <section>
     <h2>Warum 1 Milliarde Dollar?</h2>
-    <p>Die Kosten für IT-Support, Benutzer-Exhaustion und blockierte Entwicklungszyklen erreichen astronomische Summen. IARTIUM bietet die Architektur für ein resilientes, effizientes und menschenwürdiges Web.</p>
+    <p>Wir lösen das Problem der <strong>digitalen Erschöpfung</strong>. Ein System, das den Zugang blockiert, ist eine wirtschaftliche Bremse. IARTIUM ist der Beschleuniger.</p>
     <a href="https://iartium.com/billionen-euro-analyse/" class="cta">Vollständige Analyse lesen</a>
 </section>
 
