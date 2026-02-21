@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The True Way | IArtium Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&family=Roboto+Mono:wght@400&display=swap');
+        
+        body { 
+            background-color: #FFFFFF; 
+            color: #1A1A1A; 
+            font-family: 'Inter', sans-serif; 
+        }
+
+        .olive-wash { 
+            background: linear-gradient(180deg, rgba(85, 107, 47, 0.04) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        .gold-accent { color: #B8860B; }
+        .mono { font-family: 'Roboto Mono', monospace; }
+
+        .reveal-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(85, 107, 47, 0.1);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal-card:hover {
+            border-color: #B8860B;
+            background: rgba(85, 107, 47, 0.02);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="p-6 md:p-20 olive-wash">
+    <header class="mb-24">
+        <div class="max-w-5xl mx-auto flex justify-between items-center">
+            <div>
+                <span class="mono gold-accent text-[10px] tracking-[0.5em] uppercase font-bold">IArtium / Strategy</span>
+                <h1 class="text-5xl md:text-6xl font-playfair mt-4 text-[#1A3C2F]">The True Way</h1>
+            </div>
+            <div class="hidden md:block text-right opacity-40 mono text-[9px] uppercase tracking-widest">
+                Nodes: LU | CH | BR <br>
+                Status: Verified Logic
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto">
+        <section class="mb-24">
+            <h2 class="mono text-[10px] gold-accent uppercase tracking-[0.4em] mb-8 font-black">Introduction</h2>
+            <p class="text-3xl font-light leading-snug text-gray-700">
+                The massive consumption of <span class="text-[#1A3C2F]">energy, water, and capital</span> in today's tech is not a technical necessity. It is a moral failure. 
+                <br><br>
+                <span class="italic font-playfair text-4xl">"Efficiency is the only antidote to dependency."</span>
+            </p>
+        </section>
+
+        <div class="grid md:grid-cols-3 gap-8 mb-24">
+            <div class="reveal-card p-10 rounded-[30px]">
+                <h3 class="mono text-[#1A3C2F] text-[10px] mb-8 uppercase tracking-[0.3em] font-black">01. People</h3>
+                <p class="text-[14px] text-gray-500 leading-relaxed font-light">
+                    Technology should be a <strong>digital embrace</strong>. True code serves the user’s soul without hidden agendas. People should not pay for culture with their privacy.
+                </p>
+            </div>
+
+            <div class="reveal-card p-10 rounded-[30px]">
+                <h3 class="mono text-[#B8860B] text-[10px] mb-8 uppercase tracking-[0.3em] font-black">02. Investment</h3>
+                <p class="text-[14px] text-gray-500 leading-relaxed font-light">
+                    Capital without conscience is noise. A <strong>fantastic investment</strong> finances radical efficiency. Reducing code fat is reducing systemic risk and carbon footprint.
+                </p>
+            </div>
+
+            <div class="reveal-card p-10 rounded-[30px]">
+                <h3 class="mono text-[#1A3C2F] text-[10px] mb-8 uppercase tracking-[0.3em] font-black">03. Perfect Code</h3>
+                <p class="text-[14px] text-gray-500 leading-relaxed font-light">
+                    Our <strong>5.1 MB</strong> architecture is a barrier against waste. While bloated systems duplicate data to monitor, we deliver only the truth. Less processing means absolute sovereignty.
+                </p>
+            </div>
+        </div>
+
+        <section class="p-12 border border-gray-100 rounded-[40px] bg-white shadow-sm">
+            <div class="max-w-3xl">
+                <h4 class="mono text-[10px] text-gray-400 uppercase tracking-widest mb-6">The Real Cost</h4>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Servers are burning because malicious or inefficient code doesn't just deliver what you need—it <strong>duplicates, tracks, and leaks</strong> data to hidden third parties. IArtium eliminates this "digital fat" so humanity can breathe again.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-32 max-w-5xl mx-auto border-t border-gray-100 pt-12 flex justify-between items-center opacity-40 text-[9px] mono uppercase tracking-widest">
+        <div>IArtium International © 2026</div>
+        <div class="gold-accent">63 Impressions Captured</div>
+    </footer>
+</body>
+</html>
