@@ -1,17 +1,204 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IARTIUM</title>
-   
+    <title>Iartium Solution | Filosofia da Computação & Estratégia Global</title>
+    <style>
+        :root {
+            /* Verde azeitona bem claro e elegante */
+            --bg-color: #f4f7f0; 
+            --text-color: #2c3e50;
+            --accent-color: #556b2f; /* Dark Olive Green para contraste */
+            --card-bg: #ffffff;
+            --button-hover: #6b8e23;
+        }
+
+        body {
+            font-family: 'Segoe UI', Candara, 'Bitstream Vera Sans', 'DejaVu Sans', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            letter-spacing: -1px;
+            color: var(--accent-color);
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #4a5d23;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--accent-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border: 1px solid #e1e8d5;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(85, 107, 47, 0.15);
+        }
+
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .memorandum-box {
+            background: #ffffff;
+            border: 2px solid var(--accent-color);
+            padding: 35px;
+            border-radius: 4px;
+            position: relative;
+            box-shadow: 10px 10px 0px rgba(85, 107, 47, 0.1);
+        }
+
+        .memorandum-box::before {
+            content: "ESTRATÉGIA REGISTRADA";
+            position: absolute;
+            top: -12px;
+            right: 20px;
+            background: var(--accent-color);
+            color: #fff;
+            font-size: 0.75rem;
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .btn-solicit {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .btn-solicit:hover {
+            background-color: var(--button-hover);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #7a8a64;
+            margin-top: 80px;
+            padding-bottom: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .philosophy-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
 </head>
 <body>
 
-<header>
-</header>
+<div class="container">
+    <header>
+        <h1>IARTIUM <span style="font-weight: 300;">SOLUTION</span></h1>
+        <p class="tagline">Onde a Filosofia da Computação encontra a Geopolítica Energética.</p>
+    </header>
 
+    <section id="vision">
+        <h2>A Visão Sistêmica</h2>
+        <p>Entendo as organizações como sistemas complexos onde a <span class="highlight">Geopolítica é o Hardware</span>, a <span class="highlight">Economia é o Sistema Operacional</span> e o <span class="highlight">Software é a execução do poder</span>. Minha missão é decodificar esses sistemas para identificar lacunas de valor ignoradas pelo mercado tradicional.</p>
+    </section>
 
+    <section id="lorival-memorandum">
+        <div class="memorandum-box">
+            <h2>The Lorival Memorandum</h2>
+            <p>Em dezembro de 2025, entreguei ao CFO da Raízen uma análise antecipando o atual movimento de <em>turnaround</em>. A tese, agora validada pelo mercado, focava na <strong>Arbitragem de Descarbonização</strong>:</p>
+            <ul>
+                <li><strong>Eficiência Energética:</strong> O uso do biometano para substituir a matriz fóssil.</li>
+                <li><strong>Eixo Brasil-China:</strong> Posicionamento estratégico para suprir a maior demanda global por créditos de carbono.</li>
+                <li><strong>Geração de Valor:</strong> Transformação de passivos em ativos de alta liquidez internacional.</li>
+            </ul>
+            <p><em>"Soluções extraordinárias não vêm de planilhas ordinárias, mas de uma nova lógica de mundo."</em></p>
+        </div>
+    </section>
+
+    <section id="solutions">
+        <h2>Domínios de Expertise</h2>
+        <div class="philosophy-grid">
+            <div class="card">
+                <h3>Arquitetura Geopolítica</h3>
+                <p>Análise profunda de fluxos globais para antecipar demandas por energia limpa e biocommodities.</p>
+            </div>
+            <div class="card">
+                <h3>Software de Gestão Global</h3>
+                <p>Criação de soluções digitais que conectam a produção local com o mercado financeiro internacional.</p>
+            </div>
+            <div class="card">
+                <h3>Estratégia para C-Levels</h3>
+                <p>Consultoria direta focada em reestruturação financeira e posicionamento de marca sustentável.</p>
+            </div>
+            <div class="card">
+                <h3>Gap de Solução</h3>
+                <p>Identificação de oportunidades em ativos subvalorizados com alto potencial de recuperação (Turnaround).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="text-align: center;">
+        <h2>Pronto para a Próxima Escala?</h2>
+        <p>Seja para discutir parcerias estratégicas ou solicitar uma consultoria privada, utilize o canal oficial abaixo.</p>
+        <a href="https://iartium.com/paulodoporto/form-en.html" class="btn-solicit">Solicitar Gap de Solução</a>
+    </section>
+
+    <footer>
+        &copy; 2026 Iartium Global Solutions. <br>
+        Consultoria Estratégica & Filosofia da Computação.
+    </footer>
+</div>
 
 </body>
 </html>
